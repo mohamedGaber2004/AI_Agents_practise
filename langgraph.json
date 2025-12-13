@@ -1,0 +1,11 @@
+{
+    "version": "1.0",
+    "name": "langgraph-debug-template",
+    "description": "Minimal LangGraph Studio pipeline with debugging enabled",
+    "dependencies": ["."],
+    "graphs": {
+        "groq_graph": "debug:graph"
+    }
+    ,
+    "env": ".env"
+}
